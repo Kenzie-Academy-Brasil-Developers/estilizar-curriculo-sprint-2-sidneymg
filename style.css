@@ -1,27 +1,94 @@
-.clear {
+html {
+	font-family: 'Arial', sans-serif;
+}
+
+body {
+	background-color: #f3f3f3;
+	font-family: 'Arial', sans-serif;
+	margin: 100px;
+	padding: 8px;
+}
+#mainArea {
+	padding: 0px 300px;
+}
+
+.clear:not(.clearnot){
+	margin-right: 150px;
+	margin-left: 150px;
+	padding: 2px;
+	border-top: 1px solid #dedede;
 	clear: both;
 }
 
+.clear1{
+	margin-right: 150px;
+	margin-left: 150px;
+	padding: 0px;
+	border-top: 2px solid #cf8a05 ;
+	clear: both;
+
+}
+
+img {
+	border-radius: 50%;
+}
+
 #headshot {
-	width: 12.5%;
+	width: 10%;
 	float: left;
-	margin-right: 30px;
+	margin-left: 250px;
+	margin-bottom: 30px;
 }
 
 #name {
+	font-family: 'Arial';
+	font-weight: bolder;
+	text-align: left;
 	float: left;
 }
 
+#name h2 {
+	font-weight: lighter;
+
+}
+
+
 #contactDetails {
+	color: #444444;
 	float: right;
+	margin-right: 250px;
+	margin-top: 30px;
 }
 
 .sectionTitle {
+	font-family:'Helvetica';
+	font-size: 13px;
+	font-style: italic;
+	font-weight: lighter;
+	color: #cf8a05;
 	float: left;
 	width: 25%;
 }
 
 .sectionContent {
+	font-family: 'Rokkitt', sans-serif;
+	font-weight: lighter;
+	color: #444444;
+	text-align: left;
 	float: right;
 	width: 72.5%;
+}
+
+.subDetails {
+	font-size: 90%;
+	font-style: italic;
+}
+
+.keySkills {
+    column-count: 3;
+    column-gap: 10px;
+}
+
+ul {
+	list-style-type: none;
 }
